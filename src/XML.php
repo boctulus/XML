@@ -1,5 +1,7 @@
 <?php
 
+namespace Boctulus;
+
 class XML
 {
     /*
@@ -512,7 +514,7 @@ class XML
     }
 
 
-    static function removeCSS(string $page, bool $remove_style_sections = true) : string
+    static function removeCSS(string $page, bool $remove_style_sections = true, $remove_css_inline = true) : string
      {
         // Eliminar CSS entre etiquetas <style></style>
         if ($remove_style_sections) {
