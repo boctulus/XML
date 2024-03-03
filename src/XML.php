@@ -1,6 +1,6 @@
 <?php
 
-namespace boctulus\libs;
+namespace boctulus;
 
 class XML
 {
