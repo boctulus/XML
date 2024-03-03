@@ -8,6 +8,7 @@
             "boctulus\\XML\\": "src/"
         }
     },
+    "version": "1.0.0",
     "minimum-stability": "dev",
-    "prefer-stable": false
+    "prefer-stable": true
 }
