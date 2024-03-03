@@ -1,7 +1,5 @@
 <?php
 
-namespace boctulus;
-
 class XML
 {
     /*

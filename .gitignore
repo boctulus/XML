@@ -1,10 +1,2 @@
-node_modules/
-vendor/
-*.zip
-*.rar
-*.tar
-uploads/
-logs/
-tmp/
-storage/security/
-.env
+vendor
+*.cache

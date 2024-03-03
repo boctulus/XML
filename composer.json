@@ -1,7 +1,9 @@
 {
-    "name": "boctulus/xml",
-    "description": "Useful XML library",
+    "name": "boctulus/hello-world",
     "type": "library",
+    "description": "Useful XML library",
+    "keywords": ["XML", "boctulus"],
+    "homepage": "https://binsolver.com",
     "license": "MIT",
     "authors": [
         {
@@ -9,21 +11,25 @@
             "email": "boctulus@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "boctulus\\": "src/"
+            "Boctulus\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Boctulus\\Tests\\": "tests/"
         }
     },
     "config": {
         "platform": {
-            "php": "7.0"
+            "php": "7.4.0"
         }
     },
     "require": {
-        "php": ">=7.0"
+        "php": ">=7.4.0"
     },
-    "version": "1.0.0",
-    "prefer-stable": true
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
 }
-
