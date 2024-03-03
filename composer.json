@@ -1,6 +1,8 @@
 {
     "name": "boctulus/xml",
     "description": "Useful XML library",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "boctulus\\XML\\": "src/"
