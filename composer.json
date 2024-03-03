@@ -2,13 +2,22 @@
     "name": "boctulus/xml",
     "description": "Useful XML library",
     "type": "library",
+    "require": {
+        "php": ">7.0"
+    },
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Pablo Bozzolo",
+            "email": "boctulus@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "boctulus\\XML\\": "src/"
         }
     },
     "version": "1.0.0",
-    "minimum-stability": "dev",
     "prefer-stable": true
 }
